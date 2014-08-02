@@ -1,3 +1,8 @@
+function clearFilters(){
+	//to clear all filters
+	$("#searchselections").val([]).change();
+}
+
 function tablesort(){
 $("#searchselections").change(function(){
 var data = []; 
